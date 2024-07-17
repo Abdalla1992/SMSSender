@@ -38,13 +38,13 @@ namespace smsSender.UnitTest
         public void Add()
         {
             ResultBaseDto<bool> response = new ResultBaseDto<bool>(false, "Error");
-            ProviderDto Object = new ProviderDto()
+            AddProviderDto Object = new AddProviderDto()
             {
                 Name = "Twilio2",
                 ApiUrl = "",
                 Cost = (decimal)0.20,
                 Status = 1,
-                StatusStr = "Active"
+             
 
             };
 
