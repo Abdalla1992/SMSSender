@@ -8,13 +8,11 @@
 -------------------------------------------------------------------------------
  # Used Enum
  - SMS Status enum values 
-	   public enum SmsStatusEnum
 	   {
 		   Sent = 1,
 		   NotSent = 2
 	   }
   - Provider Status Enum 
-		 public enum ProviderStatusEnum
 		 {
 			 Active = 1,
 			 NotActive = 2
