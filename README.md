@@ -18,13 +18,14 @@
 			 NotActive = 2
 		 }  
 ----------------------------------------------------------------------------------
-## Test and Run th Application
+## Test and Run the Application
 -  i use Nexmo and Twilio as SMS providers
-- Note When send by Twilio  you can send for this number only 201064600617 
-   as incase testing you must verfiy mobile numbers by Twilio System before send sms
-- OPen Swagger like  'https://localhost:7201/swagger/index.html'
-- in Swagger => got to HttpPost action called api/Provider and add the following SMS providers as seprated 
--  don't Change Providers name when you  add them 
+-  - You must change All keys in APP Settings file for Nexmo and Twilio SMS providers because the current keys become blocked. 
+- Note When sent by Twilio  you can send for this number only 201064600617 
+   In incase testing you must verify mobile numbers by Twilio System before sending sms
+- Open Swagger like  'https://localhost:7201/swagger/index.html'
+- in Swagger => got to HttpPost action called API/Provider and added the following SMS providers as separate 
+-  don't Change Providers' name when you  add them 
 
 		 1- {
 		  "name": "Nexmo",
